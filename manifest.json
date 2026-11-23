@@ -1,0 +1,367 @@
+{
+  "project": "Soverai Tactical RPG \u2014 Unified Isometric Sprite Library",
+  "grid": {
+    "cellWidth": 256,
+    "cellHeight": 340,
+    "framesPerAnimation": 8,
+    "nativeFacings": [
+      "se",
+      "nw"
+    ],
+    "mirroredFacings": {
+      "sw": "flipX(se)",
+      "ne": "flipX(nw)"
+    }
+  },
+  "classes": {
+    "lancer_male": {
+      "order": "The Old Guild / Nomade",
+      "groundY": 320,
+      "masterSheets": {
+        "se": "lancer/sprites/male_lancer_isometric_se_5row_master.png",
+        "nw": "lancer/sprites/male_lancer_isometric_nw_5row_master.png"
+      },
+      "animations": {
+        "idle": {
+          "row": 0,
+          "fps": 7,
+          "seStrip": null,
+          "sheet2x8": null,
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_idle.gif",
+            "nw": "lancer/gifs/male_lancer_nw_idle.gif"
+          }
+        },
+        "walk": {
+          "row": 1,
+          "fps": 10,
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_walk.gif",
+            "nw": "lancer/gifs/male_lancer_nw_walk.gif"
+          }
+        },
+        "run": {
+          "row": 2,
+          "fps": 12,
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_run.gif",
+            "nw": "lancer/gifs/male_lancer_nw_run.gif"
+          }
+        },
+        "sword": {
+          "row": 3,
+          "fps": 11,
+          "sheet2x8": "lancer/sprites/male_lancer_sword_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/male_lancer_se_sword_strip.png",
+            "nw": "lancer/sprites/male_lancer_nw_sword_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_sword.gif",
+            "nw": "lancer/gifs/male_lancer_nw_sword.gif"
+          }
+        },
+        "bow": {
+          "row": 4,
+          "fps": 9,
+          "sheet2x8": "lancer/sprites/male_lancer_bow_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/male_lancer_se_bow_strip.png",
+            "nw": "lancer/sprites/male_lancer_nw_bow_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_bow.gif",
+            "nw": "lancer/gifs/male_lancer_nw_bow.gif"
+          }
+        },
+        "idle_sword": {
+          "sheet2x8": "lancer/sprites/male_lancer_idle_sword_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/male_lancer_se_idle_sword_strip.png",
+            "nw": "lancer/sprites/male_lancer_nw_idle_sword_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_idle_sword.gif",
+            "nw": "lancer/gifs/male_lancer_nw_idle_sword.gif"
+          }
+        },
+        "idle_bow": {
+          "sheet2x8": "lancer/sprites/male_lancer_idle_bow_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/male_lancer_se_idle_bow_strip.png",
+            "nw": "lancer/sprites/male_lancer_nw_idle_bow_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/male_lancer_se_idle_bow.gif",
+            "nw": "lancer/gifs/male_lancer_nw_idle_bow.gif"
+          }
+        }
+      }
+    },
+    "lancer_female": {
+      "order": "The Old Guild / Nomade",
+      "groundY": 320,
+      "masterSheets": {
+        "se": "lancer/sprites/female_lancer_isometric_se_5row_master.png",
+        "nw": "lancer/sprites/female_lancer_isometric_nw_5row_master.png"
+      },
+      "animations": {
+        "idle": {
+          "row": 0,
+          "fps": 7,
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_idle.gif",
+            "nw": "lancer/gifs/female_lancer_nw_idle.gif"
+          }
+        },
+        "walk": {
+          "row": 1,
+          "fps": 10,
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_walk.gif",
+            "nw": "lancer/gifs/female_lancer_nw_walk.gif"
+          }
+        },
+        "run": {
+          "row": 2,
+          "fps": 12,
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_run.gif",
+            "nw": "lancer/gifs/female_lancer_nw_run.gif"
+          }
+        },
+        "sword": {
+          "row": 3,
+          "fps": 11,
+          "sheet2x8": "lancer/sprites/female_lancer_sword_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/female_lancer_se_sword_strip.png",
+            "nw": "lancer/sprites/female_lancer_nw_sword_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_sword.gif",
+            "nw": "lancer/gifs/female_lancer_nw_sword.gif"
+          }
+        },
+        "bow": {
+          "row": 4,
+          "fps": 9,
+          "sheet2x8": "lancer/sprites/female_lancer_bow_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/female_lancer_se_bow_strip.png",
+            "nw": "lancer/sprites/female_lancer_nw_bow_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_bow.gif",
+            "nw": "lancer/gifs/female_lancer_nw_bow.gif"
+          }
+        },
+        "idle_sword": {
+          "sheet2x8": "lancer/sprites/female_lancer_idle_sword_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/female_lancer_se_idle_sword_strip.png",
+            "nw": "lancer/sprites/female_lancer_nw_idle_sword_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_idle_sword.gif",
+            "nw": "lancer/gifs/female_lancer_nw_idle_sword.gif"
+          }
+        },
+        "idle_bow": {
+          "sheet2x8": "lancer/sprites/female_lancer_idle_bow_sheet.png",
+          "strips": {
+            "se": "lancer/sprites/female_lancer_se_idle_bow_strip.png",
+            "nw": "lancer/sprites/female_lancer_nw_idle_bow_strip.png"
+          },
+          "gifs": {
+            "se": "lancer/gifs/female_lancer_se_idle_bow.gif",
+            "nw": "lancer/gifs/female_lancer_nw_idle_bow.gif"
+          }
+        }
+      }
+    },
+    "bastion": {
+      "order": "The Old Guild / Nomade (Siege Armor)",
+      "groundY": 318,
+      "masterSheets": {
+        "se": "bastion/sprites/bastion_isometric_se_5row_master.png",
+        "nw": "bastion/sprites/bastion_isometric_nw_5row_master.png"
+      },
+      "animations": {
+        "idle": {
+          "row": 0,
+          "fps": 7,
+          "sheet2x8": "bastion/sprites/bastion_idle_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_idle_strip.png",
+            "nw": "bastion/sprites/bastion_nw_idle_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_idle.gif",
+            "nw": "bastion/gifs/bastion_nw_idle.gif"
+          }
+        },
+        "walk": {
+          "row": 1,
+          "fps": 9,
+          "sheet2x8": "bastion/sprites/bastion_walk_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_walk_strip.png",
+            "nw": "bastion/sprites/bastion_nw_walk_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_walk.gif",
+            "nw": "bastion/gifs/bastion_nw_walk.gif"
+          }
+        },
+        "run": {
+          "row": 2,
+          "fps": 11,
+          "sheet2x8": "bastion/sprites/bastion_run_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_run_strip.png",
+            "nw": "bastion/sprites/bastion_nw_run_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_run.gif",
+            "nw": "bastion/gifs/bastion_nw_run.gif"
+          }
+        },
+        "sword_shield": {
+          "row": 3,
+          "fps": 10,
+          "sheet2x8": "bastion/sprites/bastion_sword_shield_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_sword_shield_strip.png",
+            "nw": "bastion/sprites/bastion_nw_sword_shield_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_sword_shield.gif",
+            "nw": "bastion/gifs/bastion_nw_sword_shield.gif"
+          }
+        },
+        "glaive": {
+          "row": 4,
+          "fps": 10,
+          "sheet2x8": "bastion/sprites/bastion_glaive_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_glaive_strip.png",
+            "nw": "bastion/sprites/bastion_nw_glaive_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_glaive.gif",
+            "nw": "bastion/gifs/bastion_nw_glaive.gif"
+          }
+        },
+        "idle_sword_shield": {
+          "sheet2x8": "bastion/sprites/bastion_idle_sword_shield_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_idle_sword_shield_strip.png",
+            "nw": "bastion/sprites/bastion_nw_idle_sword_shield_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_idle_sword_shield.gif",
+            "nw": "bastion/gifs/bastion_nw_idle_sword_shield.gif"
+          }
+        },
+        "idle_glaive": {
+          "sheet2x8": "bastion/sprites/bastion_idle_glaive_sheet.png",
+          "strips": {
+            "se": "bastion/sprites/bastion_se_idle_glaive_strip.png",
+            "nw": "bastion/sprites/bastion_nw_idle_glaive_strip.png"
+          },
+          "gifs": {
+            "se": "bastion/gifs/bastion_se_idle_glaive.gif",
+            "nw": "bastion/gifs/bastion_nw_idle_glaive.gif"
+          }
+        }
+      }
+    },
+    "archon": {
+      "order": "The Old Faith (Path of the First Light \u2014 Gold)",
+      "groundY": 318,
+      "masterSheets": {
+        "se": "archon/sprites/archon_isometric_se_5row_master.png",
+        "nw": "archon/sprites/archon_isometric_nw_5row_master.png"
+      },
+      "animations": {
+        "idle": {
+          "row": 0,
+          "fps": 7,
+          "sheet2x8": "archon/sprites/archon_idle_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_idle_strip.png",
+            "nw": "archon/sprites/archon_nw_idle_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_idle.gif",
+            "nw": "archon/gifs/archon_nw_idle.gif"
+          }
+        },
+        "walk": {
+          "row": 1,
+          "fps": 10,
+          "sheet2x8": "archon/sprites/archon_walk_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_walk_strip.png",
+            "nw": "archon/sprites/archon_nw_walk_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_walk.gif",
+            "nw": "archon/gifs/archon_nw_walk.gif"
+          }
+        },
+        "run": {
+          "row": 2,
+          "fps": 12,
+          "sheet2x8": "archon/sprites/archon_run_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_run_strip.png",
+            "nw": "archon/sprites/archon_nw_run_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_run.gif",
+            "nw": "archon/gifs/archon_nw_run.gif"
+          }
+        },
+        "turibulo_shield": {
+          "row": 3,
+          "fps": 10,
+          "sheet2x8": "archon/sprites/archon_turibulo_shield_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_turibulo_shield_strip.png",
+            "nw": "archon/sprites/archon_nw_turibulo_shield_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_turibulo_shield.gif",
+            "nw": "archon/gifs/archon_nw_turibulo_shield.gif"
+          }
+        },
+        "miracle_cast": {
+          "row": 4,
+          "fps": 9,
+          "sheet2x8": "archon/sprites/archon_miracle_cast_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_miracle_cast_strip.png",
+            "nw": "archon/sprites/archon_nw_miracle_cast_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_miracle_cast.gif",
+            "nw": "archon/gifs/archon_nw_miracle_cast.gif"
+          }
+        },
+        "idle_turibulo_shield": {
+          "sheet2x8": "archon/sprites/archon_idle_turibulo_shield_sheet.png",
+          "strips": {
+            "se": "archon/sprites/archon_se_idle_turibulo_shield_strip.png",
+            "nw": "archon/sprites/archon_nw_idle_turibulo_shield_strip.png"
+          },
+          "gifs": {
+            "se": "archon/gifs/archon_se_idle_turibulo_shield.gif",
+            "nw": "archon/gifs/archon_nw_idle_turibulo_shield.gif"
+          }
+        }
+      }
+    }
+  }
+}
